@@ -2,7 +2,7 @@
 Different models used for the segmentation of CT scans
 
 # nnU-Net
-
+[nnU-net](https://github.com/MIC-DKFZ/nnUNet)
 nnU-Net makes the following contributions to the field:
 
 1. **Standardized baseline:** nnU-Net is the first standardized deep learning benchmark in biomedical segmentation.
@@ -80,7 +80,8 @@ To familiarize yourself with nnU-Net it is recommended you have a look at the (#
 your own dataset. All the documentation about the usage are available in the github pagel.
 
 # swinUNETR
-This repository contains the code for Swin UNETR. Swin UNETR is the state-of-the-art on Medical Segmentation Decathlon (MSD) and Beyond the Cranial Vault (BTCV) Segmentation Challenge dataset. In [1], a novel methodology is devised for pre-training Swin UNETR backbone in a self-supervised manner. We provide the option for training Swin UNETR by fine-tuning from pre-trained self-supervised weights or from scratch.
+[swinUNETR](https://github.com/Project-MONAI/research-contributions)
+This repository contains the code for Swin UNETR. Swin UNETR is the state-of-the-art on Medical Segmentation Decathlon (MSD) and Beyond the Cranial Vault (BTCV) Segmentation Challenge dataset. A novel methodology is devised for pre-training Swin UNETR backbone in a self-supervised manner. We provide the option for training Swin UNETR by fine-tuning from pre-trained self-supervised weights or from scratch.
 
 This repository also contains the code for the task of brain tumor segmentation using the BraTS 21 challenge dataset. Swin UNETR ranked among top-perfoming models in BraTS 21 validation phase. 
 
@@ -88,7 +89,7 @@ A tutorial for BraTS21 brain tumor segmentation using Swin UNETR model is provid
 
 A tutorial for BTCV multi-organ segmentation using Swin UNETR model is provided.
 
-This repository contains additionnaly the code for self-supervised pre-training of Swin UNETR model[1] for medical image segmentation.
+This repository contains additionnaly the code for self-supervised pre-training of Swin UNETR model for medical image segmentation.
 
 # Commands used to configure a scitas environment
 
