@@ -94,19 +94,31 @@ This repository contains additionnaly the code for self-supervised pre-training 
 # Commands used to configure a scitas environment
 
 To load the necessary modules of the clusters: (To do every session)
+```
 module load gcc python cuda
+```
 
 To create a virtual env: (Do it one time, To avoid problems with the existing libraries of the system the argument --system-site-packages is important)
+```
 virtualenv --system-site-packages venv-pytorch
+```
 
 To activate the environment: (each time you want to use the code)
+```
 source venv-pytorch/bin/activate
+```
 
 To install the compatible version of cuda:
+```
 pip install torch==1.10.1+cu102 torchvision==0.11.2+cu102 torchaudio==0.10.1 -f https://download.pytorch.org/whl/cu102/torch_stable.html
+```
 
-To install out of the box nnunet (see github page of nnunet)
+To install out of the box nnunet (see github page of nnunet):
+```
 pip install nnunet
+```
 
 Example of a help command of the out-of-the-box nnunet:
+```
 nnUNet_train -h
+```
