@@ -1,5 +1,60 @@
-# vita_ct
-Different models used for the segmentation of CT scans
+# Master's Thesis - Deep Learning for Computed Tomography Scans
+
+## Introduction
+
+This repository is associated with my Master's thesis titled "Deep Learning for Computed Tomography Scans," completed under the supervision of Prof. Alexandre Alahi at the Visual Intelligence for Transportation Laboratory, EPFL. The focus of this thesis was to enhance medical image segmentation using deep learning techniques, with a particular emphasis on the challenging task of segmenting anatomical structures in CT scans.
+
+Medical image segmentation is a critical aspect of medical imaging, with applications in diagnosis, treatment planning, and image-guided surgery. This thesis aimed to contribute to the advancement of this field by exploring various deep learning architectures and frameworks.
+
+## Research Highlights
+
+### State-of-the-Art Overview
+
+- The thesis provides a comprehensive overview of the current state-of-the-art in medical image segmentation, highlighting the pivotal role of deep learning in this domain.
+
+### Architecture Exploration
+
+- Various deep learning architectures and frameworks were investigated, including U-Net and its variants, the nnUNet framework, and transformer-based models like UNETR and Swin UNETR.
+
+### Performance Comparison
+
+- Extensive experiments were conducted to compare the performance of these architectures, with a particular focus on assessing the state-of-the-art nnU-Net against the newer Swin-UNet model.
+
+### Optimal Training Data
+
+- The thesis aimed to approximate the optimal number of training images required to achieve the best segmentation results in the medical imaging domain.
+
+### Future Directions
+
+- The study discusses current trends and future directions in medical image segmentation, including the potential of transformer-based models, attention mechanisms, self-supervised learning, and domain adaptation.
+
+## Repository Contents
+
+This GitHub repository contains the following:
+
+- Deep learning models used in the research.
+- Evaluation methods and scripts for assessing model performance.
+- Data preprocessing and augmentation tools.
+- Documentation related to experiments and results.
+
+## Usage
+
+For detailed information on using the models and evaluation methods, please refer to the documentation provided in this repository.
+
+## Conclusion
+
+This thesis represents a significant contribution to the field of medical imaging, offering valuable insights into key advancements and identifying promising areas for future research and development. We encourage researchers and practitioners in the field to explore the models and methods made available in this repository.
+
+## Contact
+
+- Researcher: Vincent Naayem
+- Supervisor: Prof. Alexandre Alahi
+- University: EPFL (École polytechnique fédérale de Lausanne)
+
+## Acknowledgments
+
+Special thanks to all who contributed to this research, especially Prof. Alexandre Alahi for guidance and support.
+
 
 # nnU-Net
 [nnU-net](https://github.com/MIC-DKFZ/nnUNet)
