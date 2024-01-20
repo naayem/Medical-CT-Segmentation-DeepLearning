@@ -1,10 +1,18 @@
 # Master's Thesis - Deep Learning for Computed Tomography Scans
 
+![image](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![image](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+
+
 ## Introduction
 
 This repository is associated with my Master's thesis titled "Deep Learning for Computed Tomography Scans," completed under the supervision of Prof. Alexandre Alahi at the Visual Intelligence for Transportation Laboratory, EPFL. The focus of this thesis was to enhance medical image segmentation using deep learning techniques, with a particular emphasis on the challenging task of segmenting anatomical structures in CT scans.
 
 Medical image segmentation is a critical aspect of medical imaging, with applications in diagnosis, treatment planning, and image-guided surgery. This thesis aimed to contribute to the advancement of this field by exploring various deep learning architectures and frameworks.
+
+
+https://github.com/naayem/Medical-CT-Segmentation-DeepLearning/assets/14961905/fa89b6d8-f406-4e50-b8d1-e0f678b81abd
+
 
 ## Research Highlights
 
@@ -54,6 +62,12 @@ This thesis represents a significant contribution to the field of medical imagin
 ## Acknowledgments
 
 Special thanks to all who contributed to this research, especially Prof. Alexandre Alahi for guidance and support.
+
+## Galery
+<div align=center>
+   <img width="232" alt="Screenshot 2024-01-20 at 17 47 46" src="https://github.com/naayem/Medical-CT-Segmentation-DeepLearning/assets/14961905/7b8b0aa7-a60d-458b-9797-7e81d347812c">
+   <img width="201" alt="Screenshot 2024-01-20 at 17 53 39" src="https://github.com/naayem/Medical-CT-Segmentation-DeepLearning/assets/14961905/1e40d79a-f918-4ed8-8c37-0cbf10806a2b">
+</div>
 
 
 # nnU-Net
